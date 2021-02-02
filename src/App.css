@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  background: #282c34;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  width: 25vmin;
+  height: 4vmin;
 }
